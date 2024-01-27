@@ -31,7 +31,7 @@ const NoticiasProvider = ({children}) => {
             setTotalNoticias(data.totalResults)
         }
         consultarAPI()
-    }, [pagina]) 
+    }, [ pagina]) 
     
     const handleChangeCategoria = e => {
         setCategoria(e.target.value)
